@@ -1,0 +1,4 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "css.lint.unknownAtRules": "ignore"
+}

@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+mysql-connector-python = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+fastapi = "*"
+argon2-cffi = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+python-multipart = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
