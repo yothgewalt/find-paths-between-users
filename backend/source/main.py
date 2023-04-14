@@ -23,9 +23,9 @@ from typing import Optional, Any
 
 planetscale = mysql.connector.connect(
     host = "localhost",
-    user = "yothgewalt",
-    passwd = "!yoth@14131413",
-    db = "s4xajtia9",
+    user = "<user>",
+    passwd = "<passwd>",
+    db = "<database>",
 )
 
 user_repository = user.InitializeRepository(planetscale)
